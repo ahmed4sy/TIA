@@ -1,11 +1,11 @@
 #!/bin/python3.10
-from index import bubbles,group
+from ALG.index import bubbles,group
 from PIL import Image,ImageDraw,ImageFont
 from os import system as sys
 from easyocr import Reader
 from cv2 import imread
 import json
-from libAF import *
+from ALG.libAF import *
 sys("clear")
 #front end
 v2 = None
